@@ -1,0 +1,167 @@
+body {
+    background:url(../img/fon.png) no-repeat;
+    padding-top: 49px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: orange;
+}
+
+.header {
+    width: auto;
+    height: 44px;
+    display: block;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.logo {
+    width: 46px;
+    height: 44px;
+    display: inline-block;
+    margin-right: 21px;
+    float: left;
+}
+
+.name {
+    width: 108px;
+    height: 44px;
+    color: white;
+    float: left;
+}
+
+.milan {
+    font-family: Verdana;
+    color: white;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 21px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.holidays {
+    font-family: Verdana;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+}
+
+.contacts {
+    width: auto;
+    height: 44px;
+    color: white;
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
+.email {
+    font-family: Verdana;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.number {
+    font-family: Verdana;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.menu {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -30px;
+}
+
+.item {
+    width: 312px;
+    height: 205%;
+    padding: 0;
+    position: relative;
+}
+
+.img {
+    width: 312px;
+    height: 205px;
+    margin-bottom: 20px;
+    background-size: cover;
+   }
+
+.item_name {
+    display: block;
+    font-family: Verdana;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.hov {
+    top: 146px;
+    width: 316px;
+    position: absolute;
+    height: 43px;
+    background-color: #f26522;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.item:hover .hov {
+    display: inline-block;
+}
+
+.item:hover .item_name {
+    color: #f26522;
+}
+
+.price {
+    width: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 21px;
+    float: left;
+}
+
+.euro {
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.details {
+    font-family: Verdana;
+    float: right;
+    color: white;
+    padding-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.copyright {
+    font-family: Verdana;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+}
+
+* {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0;
+}
